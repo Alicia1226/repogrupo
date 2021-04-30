@@ -1,0 +1,31 @@
+:root{
+    --tamanioLetra: 25px;
+    --colorfondo: "red";
+    --tamanioCabeza: 30px;
+}
+
+p{
+    font-size: var(--tamanioLetra);
+    animation-name: muevete;
+    animation-duration: 5s;
+    
+}
+
+h1{
+    animation-name: muevete;
+    animation-duration: 3s;
+    font-size: var(--tamanioCabeza);
+}
+
+h2{
+    animation-name: muevete;
+    animation-duration: 4s;
+    font-size: var(--tamanioCabeza);
+}
+
+@keyframes muevete {
+
+    from {transform: translateX(-350px);}
+    to {transform: translateX(600px);}
+    
+}
