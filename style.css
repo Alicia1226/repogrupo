@@ -7,13 +7,13 @@
 p{
     font-size: var(--tamanioLetra);
     animation-name: muevete;
-    animation-duration: 4s;
+    animation-duration: 5s;
     
 }
 
 h1{
     animation-name: muevete;
-    animation-duration: 4s;
+    animation-duration: 3s;
     font-size: var(--tamanioCabeza);
 }
 
